@@ -155,7 +155,7 @@ export default function MultiScrap() {
           <input
             className="appearance-none border-2 border-gray-100 rounded-lg w-full py-3 px-3 text-gray-700 leading-tight focus:outline-none focus:border-blue-500 focus:bg-white bg-gray-100"
             type="text"
-            value={fields}
+            value={fields ?? ''}
             onChange={(e) => setFields(e.target.value)}
             placeholder="title, price, description"
           />
